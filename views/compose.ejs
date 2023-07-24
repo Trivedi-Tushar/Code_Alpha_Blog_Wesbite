@@ -1,0 +1,17 @@
+
+<%- include("partials/header"); -%>
+<section class="section-main">
+  <h1 class="section-title">Write Your Own Blog!</h1>
+    <form class="form-section" action="/compose" method="post">
+      <div class="form">
+        <label class="form-label">POST TITLE</label>
+        <input class="form-input" type="text" name="postTitle">
+        <label class="form-label">CONTENT</label>
+        <textarea class="form-input" name="postBody" rows="5" cols="30"></textarea>
+      </div>
+      <button class="button--flex form-btn" type="submit" name="button">PUBLISH</button>
+    </form>
+</section>
+    
+
+<%- include("partials/footer"); -%>
